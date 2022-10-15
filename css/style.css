@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+}
+
+.fullDiv {
+	width: 100%;
+	height: 100%;
+}
+.imagesEffictBox {
+	position: absolute;
+	content: "";
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 400px;
+	border: 1px solid #3333;
+}
+.imagesDiv {
+	width: 100%;
+	height: 330px;
+	position: relative;
+	cursor: pointer;
+}
+.imagesDiv input {
+	visibility: hidden;
+}
+.imagesDiv img {
+	width: 40%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.filterDiv {
+	width: 100%;
+	height: 70px;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.filterDiv ul {
+	margin: 0;
+	padding-bottom: 0;
+}
+.filterDiv ul li {
+	display: inline-block;
+	margin-left: 1px;
+	margin-right: 1px;
+	opacity: 0.7;
+}
+.filterDiv ul li:hover {
+	opacity: 1;
+}
+
+.EffictImages {
+	width: 70px;
+	height: 49px;
+	box-sizing: border-box;
+	background: #333;
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.EffictImages img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
